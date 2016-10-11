@@ -1,0 +1,8 @@
+crontab -e
+0 0 0 0 Mon-Fri echo "Pengecekan" | mail -s m26415068@john.petra.ac.id curl -s http://www.elevenia.co.id/prd-apple-iphone-7-plus-black-128gb-garansi-6242166 | grep price notranslate | sed 's<span class="price notranslate"> "<span>"
+
+
+
+http://stats.labs.apnic.net/ipv6/ID | grep "google-visualization-table" | sed 's/<div class=\"google-visualization-table\" cellspacing="0" | sed 's/<\/div>/\n/'
+
+
